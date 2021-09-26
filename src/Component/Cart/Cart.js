@@ -28,6 +28,7 @@ const Cart = () => {
                             persons.map(person =>
                                 <Person
                                     person={person}
+                                    key={person._id}
                                     handleAddToCart={handleAddToCart}
                                 ></Person>
                             )

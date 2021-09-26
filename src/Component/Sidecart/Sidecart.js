@@ -15,8 +15,8 @@ const Sidecart = (props) => {
     return (
         <div className="mt-4">
                 <h2>Person Added: {props.cart.length} </h2>
-                <ul>           {
-                cart.map(person => <li> {person.name} </li>)
+                <ul>{
+                 cart.map(person => <li> {person.name} </li>)
             }
             </ul>
                 <p>Total Cost: {total}</p>
