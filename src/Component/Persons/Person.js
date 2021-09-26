@@ -17,7 +17,7 @@ const Person = (props) => {
                         <h4>Designation: {designation}</h4>
                         <h5>Company: {company}</h5>
                         <h6>Gender: {gender}</h6>
-                        <p>Honorarium: {honorarium}</p>
+                        <p>Honorarium: ${honorarium}</p>
                         <button 
                         onClick={()=>props.handleAddToCart(props.person)}
                         className="btn btn-color">
