@@ -20,7 +20,7 @@
     border-radius: 10px;
     border: 1px solid goldenrod;
     background-color: rgb(250, 244, 237);
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
   

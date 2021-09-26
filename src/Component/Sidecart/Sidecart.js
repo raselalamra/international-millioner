@@ -19,7 +19,7 @@ const Sidecart = (props) => {
                 cart.map(person => <li> {person.name} </li>)
             }
             </ul>
-                <p>Total: {total}</p>
+                <p>Total Cost: {total}</p>
                   <button className="btn btn-color">{cartIcon} Click Me</button>
         </div>
     );
