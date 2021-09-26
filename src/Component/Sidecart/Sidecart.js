@@ -13,13 +13,14 @@ const Sidecart = (props) => {
     };
 
     return (
-        <div class="card card-style mt-4">
-            <div class="card-body">
-                <h2>CEO Added: {props.cart.length} </h2>
-                <h3 class="card-title">Name Add: {} </h3>
-                <p>Total: ${total}</p>
+        <div className="mt-4">
+                <h2>Person Added: {props.cart.length} </h2>
+                <ul>           {
+                cart.map(person => <li> {person.name} </li>)
+            }
+            </ul>
+                <p>Total: {total}</p>
                   <button className="btn btn-color">{cartIcon} Click Me</button>
-            </div>
         </div>
     );
 };

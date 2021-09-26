@@ -32,13 +32,12 @@ const Cart = () => {
                                 ></Person>
                             )
                         }
-
                     </div>
-                    {/* akhane Cart add korbo  */}
+                    {/* akhane Cart add kora hobe */}
 
                 </div>
                 <div className="col-md-3">
-                    {/* akhane amra Cart calculation korbo  */}
+                    {/* akhane Cart calculation kora hobe  */}
                     <Sidecart cart={cart}></Sidecart>
                 </div>
             </div>
